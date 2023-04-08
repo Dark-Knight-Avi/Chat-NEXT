@@ -1,13 +1,10 @@
+import Button from "@/components/ui/Button";
 import { FC } from "react";
 
-interface pageProps {
-    
-}
- 
+interface pageProps {}
+
 const page: FC<pageProps> = () => {
-    return (
-        <div>page</div>
-    );
-}
- 
+  return <Button>hello</Button>;
+};
+
 export default page;
